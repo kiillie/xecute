@@ -1,0 +1,449 @@
+
+#shadowing
+{
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #CCA;
+	z-index:10;
+	opacity:0.5;
+	filter: alpha(opacity=50);
+}
+
+#box 
+{
+	display: none;
+	position: fixed;
+	top: 15%;
+	left: 25%;
+	z-index:101;
+	overflow: auto;
+
+	width: 575px;
+	height: 490px;
+	margin: 0 auto;
+	background-color:#00a8ec;
+	border-radius: 4px 4px 4px 4px;
+	overflow-y:auto;	
+}
+
+#boxtitle
+{
+	position:absolute;
+	float:center;
+	top:0;
+	left:0;
+	width:496px;
+	height:24px;
+	padding:0;
+	padding-top:4px;
+	left-padding:8px;
+	margin:0;
+	border-bottom:4px solid #3CF;
+	background-color: #09c;
+	color:white;
+	text-align:center;
+	display: none;
+}
+
+
+/********** jayfred css *************/
+
+#header {
+	padding-top: 14px;
+	padding-left: 5px;
+	height: 34px;
+	background-color: white;
+	border-bottom: 4px #878282 solid;
+}
+
+#header p {
+	font-size: 24px;
+	color: #c790b9;	
+}
+
+span#vio-color {
+	color: #00a8ec;
+}
+
+input[type="button"]#x-button {
+	background-color: #c790b9;
+	width: 25px;
+	height: 22px;
+	font-size: 12px;
+	font-weight: bolder;
+	color: white;
+	border: 1px #c790b9 solid;
+	border-radius: 0px 4px 0px 0px;
+	padding-bottom: 10px !important;
+	cursor: pointer;
+	float: right;
+	margin-top: -14px;
+}
+
+	/**** left dashboard *****/
+
+	#left-dboard {
+		width: 177px;
+		height: 436px;
+		float: left;
+	}
+
+	.nav4-items{
+		width: 190px;
+		height:21px;
+		background-repeat:no-repeat;
+		cursor:pointer;
+	}
+
+	.nav4-items-selected {
+		width: 190px;
+		height:21px;
+		border-radius: 3px 0 0 3px;
+		background-color: white;
+		color: #c790b9;
+		background-repeat:no-repeat;
+	}
+
+	#nav-4 ul#menu-4 {
+		list-style-type: none;
+		font-size: 14px;
+		margin-top: 15px;
+		margin-left: 5px;
+		color: white;
+	}
+
+	#nav-4 ul#menu-4 li {
+		height: 25px;
+		margin-top: .1px;
+		padding-left: 5px;
+	} 
+
+	#add-nav {
+		height: 21px;
+		background-image: url(../images/add_icon.png);
+	}
+
+	#add-nav:hover {
+		background-color: #c790b9;
+		background-image: url(../images/add_icon.png);
+		color: white;
+		border-radius: 3px 0 0 3px;
+	}
+
+	#add-nav.nav4-items-selected {
+		background-image: url(../images/add_active_icon.png);
+	}
+
+	#add-nav.nav4-items-selected:hover {
+		background-image: url(../images/add_icon.png);
+	}
+
+	span#nav4-1-title {
+		margin-left: 28px;
+	}
+
+	#upcom-nav {
+		height: 21px;
+		background-image: url(../images/upcom_icon.png);
+	}
+
+	#upcom-nav:hover {
+		background-color: #c790b9;
+		background-image: url(../images/upcom_icon.png);
+		color: white;
+		border-radius: 3px 0 0 3px;
+	}
+
+	#upcom-nav.nav4-items-selected {
+		background-image: url(../images/upcom_active_icon.png);
+	}
+
+	#upcom-nav.nav4-items-selected:hover {
+		background-image: url(../images/upcom_icon.png);
+	}
+
+	span#nav4-2-title {
+		margin-left: 28px;
+	}
+
+	#ongo-nav {
+		height: 21px;
+		background-image: url(../images/ongo_icon.png);
+	}
+
+	#ongo-nav:hover {
+		background-color: #c790b9;
+		background-image: url(../images/ongo_icon.png);
+		color: white;
+		border-radius: 3px 0 0 3px;
+	}
+
+	#ongo-nav.nav4-items-selected {
+		background-image: url(../images/ongo_active_icon.png);
+	}
+
+	#ongo-nav.nav4-items-selected:hover {
+		background-image: url(../images/ongo_icon.png);
+	}
+
+	span#nav4-3-title {
+		margin-left: 28px;
+	}
+
+	#pend-nav {
+		height: 21px;
+		background-image: url(../images/pend_icon.png);
+	}
+
+	#pend-nav:hover {
+		background-color: #c790b9;
+		background-image: url(../images/pend_icon.png);
+		color: white;
+		border-radius: 3px 0 0 3px;
+	}
+
+	#pend-nav.nav4-items-selected {
+		background-image: url(../images/pend_active_icon.png);
+	}
+
+	#pend-nav.nav4-items-selected:hover {
+		background-image: url(../images/pend_icon.png);
+	}
+
+	span#nav4-4-title {
+		margin-left: 28px;
+	}
+
+	#cancl-nav {
+		height: 21px;
+		background-image: url(../images/cancl_icon.png);
+	}
+
+	#cancl-nav:hover {
+		background-color: #c790b9;
+		background-image: url(../images/cancl_icon.png);
+		color: white;
+		border-radius: 3px 0 0 3px;
+	}
+
+	#cancl-nav.nav4-items-selected {
+		background-image: url(../images/cancl_active_icon.png);
+	}
+
+	#cancl-nav.nav4-items-selected:hover {
+		background-image: url(../images/cancl_icon.png);
+	}
+
+	span#nav4-5-title {
+		margin-left: 28px;
+	}
+
+	#fin-nav {
+		height: 21px;
+		background-image: url(../images/fin_icon.png);
+	}
+
+	#fin-nav:hover {
+		background-color: #c790b9;
+		background-image: url(../images/fin_icon.png);
+		color: white;
+		border-radius: 3px 0 0 3px;
+	}
+
+	#fin-nav.nav4-items-selected {
+		background-image: url(../images/fin_active_icon.png);
+	}
+
+	#fin-nav.nav4-items-selected:hover {
+		background-image: url(../images/fin_icon.png);
+	}
+
+	span#nav4-6-title {
+		margin-left: 30px;
+	}
+
+
+	/**** load pages2 *****/
+
+	.content-container-2 {
+	width: 380px;
+	min-height: 438px;
+	float: right;
+	background-color: white;
+	}
+
+	#add-todo-content {
+		background-color: white;
+	}
+
+
+	/*************** ADD TODO FORM *****************/
+
+#add-todo-content ul#input-1 {
+	list-style-type: none;
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+#add-todo-content ul#input-1 li{
+	float: left;
+}
+
+#add-todo-content ul#input-1 li#lbl-1 {
+	font-size: 12px;
+	color: #8b8686;
+	margin-top: -13px;
+}
+
+#add-todo-content ul#input-1 li#inp-title {
+	margin-left: -24px;
+}
+
+#add-todo-content ul#input-1 li#inp-date {
+	margin-left: -29px;
+}
+
+#date {
+	width: 65px;
+}
+
+#add-todo-content ul#input-2 {
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+
+#add-todo-content ul#input-2 li{
+	float: left;
+	font-size: 12px;
+	color: #8b8686;
+	margin-bottom: 3px;
+}
+
+#add-todo-content ul#input-2 li#lbl-2 {
+	margin-top: -14px;
+	margin-left: 7px;
+}
+
+#hour {
+	width: 65px;
+	margin-left: -61px;
+	margin-right: 3px; 
+}
+
+#dur{
+	width: 50px;
+	margin-left: -59px;
+}
+
+#unit {
+	margin-right: 3px;
+}
+
+#alarm {
+	width: 65px;
+	margin-left: -41px;
+}
+
+#add-todo-content a {
+	margin-top: 10px !important;
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #00a8ec;
+}
+
+#add-todo-content a:hover {
+	text-decoration: underline;
+}
+
+#attach-div {
+	display: none;
+	margin-left: 25px;
+}
+
+#attach-div2 {
+	display: none;
+	margin-left: 25px;
+}
+
+#add-todo-content p {
+	font-size: 12px;
+	color: #8b8686;
+	margin-left: 20px;
+}
+
+#add-todo-content textarea {
+	resize: none;
+	width: 337px;
+	height: 40px;
+	font-size: 12px;
+	margin-left: 25px;
+}
+
+input[name="submit"] {
+	width: 87px;
+	height: 28px;
+	background-color: #00a8ec;
+	font-size: 14px;
+	color: white;
+	border: 1px #00a8ec solid;
+	cursor: pointer;
+	float: right;
+	margin-right: 17px;
+	margin-top: 5px;	
+}
+
+input[name="submit2"] {
+	width: 87px;
+	height: 28px;
+	background-color: #00a8ec;
+	font-size: 14px;
+	color: white;
+	border: 1px #00a8ec solid;
+	cursor: pointer;
+	float: right;
+	margin-right: 17px;
+	margin-top: 5px;	
+}
+
+/********* new todos div *************/
+
+#load-newtodo {
+	width: 378px;
+	min-height: 200px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+#new-todo {
+	width: 368px;
+	min-height: 200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: rgba(0, 0, 255, 0.19);
+	border-top: 2px #c790b9 solid;
+}
+
+#new-todo h3 {
+	font-size: 16px;
+	color: #c790b9;
+	font-weight: normal;
+}
+
+span#blu-color {
+color: #00a8ec;
+}
+
+.show-detail {
+	display: none;
+    width: 308px;
+    height: 100px;
+    padding: 0.4em;
+  }
